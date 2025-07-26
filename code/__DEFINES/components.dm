@@ -320,8 +320,9 @@
 
 // /obj/item/clothing signals
 #define COMSIG_CLOTHING_STEP_ACTION "clothing_step_action"			//from base of obj/item/clothing/shoes/proc/step_action(): ()
-
+#define COMSIG_ITEM_HIT_RESPONSE "item_hit_response"
 // /obj/item/implant signals
+#define COMSIG_ITEM_ATTACK_TURF "item_attack_turf"
 #define COMSIG_IMPLANT_ACTIVATED "implant_activated"			//from base of /obj/item/implant/proc/activate(): ()
 #define COMSIG_IMPLANT_IMPLANTING "implant_implanting"			//from base of /obj/item/implant/proc/implant(): (list/args)
 	#define COMPONENT_STOP_IMPLANTING 1
